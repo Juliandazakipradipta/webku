@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color: grey;
+}
+
+.head {
+    width: 100%;
+    height: 150px;
+    background-color:maroon;
+    text-align: center;
+    line-height: 170px;
+}
+
+.content{
+    float: left;
+    height: 700px;
+    padding: 200px 20px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+}
+
+.asside1 {
+    background-color:salmon ;
+    margin: 2.5px;
+    width: 450px;
+    padding: 10px;
+}
+
+.asside2 {
+    background-color: pink ;
+    margin: 2px;
+    width: 427px;
+    padding: 20px;
+    text-align: center;  
+
+}
+.judul{
+    text-align: center;
+    font-size: large;
+}
+.main {
+    background-color:palevioletred;
+    margin: 2px;
+    width: 629px;
+    padding: 10px;
+}
+.isi{
+    margin-top: 1px;
+}
+.Syarat{
+    font-size: medium;
+    padding :10px;
+    text-align: justify;
+    margin-left:12px;
+}
+.judul{
+    justify-content: center;
+}
+.kota{
+    margin-left: 420px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.gambar{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    border: 5px solid limegreen;
+}
+.list{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.clear {
+    clear: left;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+.content:hover{
+background-color: azure;
+}
+.gambar:hover{
+    transform: rotateX(180deg);
+    transition: 0.6s;  
+}
